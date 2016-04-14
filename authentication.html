@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="ISO-8859-1">
+	<title>User Login Page</title>
+	<script src="js/angular.min.js"></script>
+	<link href="css/auth.css" rel="stylesheet">
+	<style type="text/css">
+	[ng\:cloak], [ng-cloak], .ng-cloak {	
+		display: none !important;
+	}
+	</style>
+</head>
+
+<body ng-app=main>
+	<script src="js/main.js"></script>
+	<div class="container">
+		<h1>Administration Panel</h1>
+		
+		<div ng-controller="home" ng-cloak class="ng-cloak">
+			<form name="login">
+				<label>Username</label><input type="text" name="userid"/><br /><br/>
+				<label>Password</label><input type="password" name="password"/><br /><br/>
+				<div id="outer">
+					<div class="inner"><button type="reset" style="margin-left:430px;">Cancel</button></div>
+					<div class="inner"><button type="submit" onclick="check(this.form)" style="margin-left:200px;">Login</button></div>
+				</div>
+			</form>
+			<!-- <p>Message from the database: {{usr.name}}</p> -->
+			<script language="javascript">
+				function check(form){
+					if(form.userid.value == "zaizi" && form.password.value == "zaizi@123"){
+						window.open("admin.html", "_self")
+					}
+					else{
+						alert("Wrong Username or Password")
+					}
+				}
+			</script>
+		</div>
+	</div>
+</body>
+</html>
