@@ -5,13 +5,13 @@ Move 02.jpg, 03.jpg, 05.jpg and 06.jpg image files in to the 'ShoppingCart/src/m
 
 Technologies used:
 
-Spring Tool Suite - 3.7.3.RELEASE
-JDK - 1.8
-Node.js - 5.10.1
-npm - 3.8.3
-Angularjs - 1.5.3
-HTML - 5
-MySQL - 14.14
+	Spring Tool Suite - 3.7.3.RELEASE
+	JDK - 1.8
+	Node.js - 5.10.1
+	npm - 3.8.3
+	Angularjs - 1.5.3
+	HTML - 5
+	MySQL - 14.14
 
 1) System has two main interfaces (pages). One for a customer who is willing to 
 purchase a product and other one is for adiministration purposes.
@@ -61,22 +61,22 @@ if you are using this code in production. Otherwise,
 
 An example of products table is given below.
 
-mysql> use springbootdb
-Database changed
-mysql> select * from products;
-+----+-------------------+--------+-------+
-| id | name              | price  | stock |
-+----+-------------------+--------+-------+
-|  1 | Dell Laptop PCI3  | 100000 | 7     |
-|  2 | Toshiba 12KK2     | 70000  | 4     |
-|  4 | HP Lint           | 200000 | 2     |
-|  5 | HP Lint 2 series  | 250000 | 0     |
-|  8 | Motorola N series | 150000 | 8     |
-|  9 | Alcatel           | 90000  | 5     |
-| 10 | Lenova N20        | 85000  | 3     |
-| 11 | Volto DS          | 56000  | 6     |
-| 12 | Toshiba N677      | 89000  | 16    |
-+----+-------------------+--------+-------+
+	mysql> use springbootdb
+	Database changed
+	mysql> select * from products;
+	+----+-------------------+--------+-------+
+	| id | name              | price  | stock |
+	+----+-------------------+--------+-------+
+	|  1 | Dell Laptop PCI3  | 100000 | 7     |
+	|  2 | Toshiba 12KK2     | 70000  | 4     |
+	|  4 | HP Lint           | 200000 | 2     |
+	|  5 | HP Lint 2 series  | 250000 | 0     |
+	|  8 | Motorola N series | 150000 | 8     |
+	|  9 | Alcatel           | 90000  | 5     |
+	| 10 | Lenova N20        | 85000  | 3     |
+	| 11 | Volto DS          | 56000  | 6     |
+	| 12 | Toshiba N677      | 89000  | 16    |
+	+----+-------------------+--------+-------+
 
 5) An admin can add products, search for details of products, update stocks or
 name or price of the products and delete products from the database using admin
