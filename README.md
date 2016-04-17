@@ -1,8 +1,6 @@
 # CART.JS
 Electronic Shopping Cart System
 
-Move 02.jpg, 03.jpg, 05.jpg and 06.jpg image files in to the 'ShoppingCart/src/main/resources/static/images' path in order to work with this system properly.
-
 Technologies used:
 
 	Spring Tool Suite - 3.7.3.RELEASE
