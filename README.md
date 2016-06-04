@@ -19,8 +19,8 @@ as "GO TO ADMINISTRATION PANEL" in storefront and "GO TO STOREFRONT" in admin
 page. When you navigate to the admin page, you will be asked to provide the 
 admin credential as given below.
 	
-	Username: zaizi
-	Password: zaizi@123
+	Username: whatever
+	Password: whatever@123
 
 3) The system uses MySQL database for its extensive data storage and retrieval and
 hence you will have to have MySQL database installed in your system.
@@ -50,12 +50,12 @@ file in the 'static' resource folder as follows.
 
 	spring.datasource.url=jdbc:mysql://localhost:3306/springbootdb?autoReconnect=true&useSSL=false
 	spring.datasource.username=root
-	spring.datasource.password=zaizi
+	spring.datasource.password=whatever
 
 Therefore, please feel free to change the password according to your preferences
 if you are using this code in production. Otherwise,
 
-	set your root password of MySQL as 'zaizi'
+	set your root password of MySQL as 'whatever'
 
 An example of products table is given below.
 
